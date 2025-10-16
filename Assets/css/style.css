@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{    
+    background-color: rgb(247, 249, 251);
+}
+.editor-container {
+    margin-top: 40px;
+}
+.img-preview{
+    background-color: #fff;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.controls input[type="range"] {
+    width: 100%;
+}
+.canvas-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.canvas-wrapper img {
+    max-width: 100%;
+    max-height: 400px;
+}
